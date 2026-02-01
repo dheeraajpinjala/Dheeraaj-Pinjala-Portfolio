@@ -187,8 +187,8 @@ export default function Contact() {
                       </>
                     ) : (
                       <>
-                        <Send className="h-4 w-4 mr-2" />
-                        Send Message
+                    <Send className="h-4 w-4 mr-2" />
+                    Send Message
                       </>
                     )}
                   </Button>

@@ -19,8 +19,17 @@ export default function Projects() {
       techStack: ["Python", "AgenticAI", "RAG", "FastAPI", "React"],
       description: "Built an AI research assistant using multiple specialized agents to search academic databases via APIs, synthesize papers and generate literature reviews, while providing research-related contextual answers through a chat interface.",
       impact: "Multi-agent coordination, academic database integration",
-      github: "https://github.com/Dheeraaj-8/AI-Research-Assistant",
+      github: "https://github.com/dheeraajpinjala/AI-Research-Assistant",
       tags: ["#AgenticAI", "#RAG", "#ResearchAssistant"],
+    },
+    {
+      title: "Custom Claude GitOps MCP Server",
+      duration: "Personal Project",
+      techStack: ["Python", "MCP", "Git", "Claude", "FastAPI"],
+      description: "Enabled autonomous GitOps workflows for Claude by building a custom MCP server using a JSON-RPC communication implementation, automating Git CLI workflows and GitHub API integrations for end-to-end repository provisioning and code deployment",
+      impact: "MCP Server for Autonomous GitOps invocation",
+      github: "https://github.com/dheeraajpinjala/Claude-Gitops-Assistant",
+      tags: ["#GitOps", "#AgenticAI", "#MCPServer", "#DeveloperAutomation"],
     },
     {
       title: "Indian LegalGPT",
@@ -28,7 +37,7 @@ export default function Projects() {
       techStack: ["Python", "ChromaDB", "Groq", "Mistral-7B", "React", "FastAPI"],
       description: "Created a bilingual (Hindi/English) legal information chatbot using RAG with ChromaDB for document retrieval and Groq/Mistral-7B for inference, supporting language toggle and accurate contextually relevant responses.",
       impact: "Bilingual legal support with RAG implementation",
-      github: "https://github.com/Dheeraaj-8/Indian-LegalGPT",
+      github: "https://github.com/dheeraajpinjala/Indian-LegalGPT",
       tags: ["#RAG", "#VectorDB", "#AIchatbot"],
     },
     {
@@ -37,7 +46,7 @@ export default function Projects() {
       techStack: ["MongoDB", "Express.js", "React", "Node.js", "Redux"],
       description: "Built a NU Canvas-inspired learning management system using MERN stack with Redux state management, RESTful APIs, JWT authentication, and MongoDB database design, supporting course creation, assignment workflows, and multi-role user management.",
       impact: "Full-stack LMS with multi-role user management",
-      github: "https://github.com/Dheeraaj-8/kambaz-next-js",
+      github: "https://github.com/dheeraajpinjala/kambaz-next-js",
       tags: ["#MERN", "#FullStack", "#LMS"],
     },
     {
@@ -55,7 +64,7 @@ export default function Projects() {
       techStack: ["Python", "Google Colab", "TensorFlow", "Seaborn"],
       description: "Implemented a multi-class credit risk model classifying high- and low-risk creditors, achieving 98.6% prediction accuracy by leveraging stacked ensemble techniques and addressing class imbalance with CTGAN, SMOTE, and bootstrapping.",
       impact: "98.6% accuracy achieved with ensemble methods",
-      github: "https://github.com/Dheeraaj-8/Credit-Score-Analysis-using-Machine-Learning",
+      github: "https://github.com/dheeraajpinjala/Credit-Score-Analysis-using-Machine-Learning",
       tags: ["#MachineLearning", "#DataScience", "#Analytics"],
     },
   ]

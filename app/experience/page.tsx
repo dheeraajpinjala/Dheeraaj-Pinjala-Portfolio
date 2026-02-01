@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Briefcase, Download, Power } from "lucide-react"
+import { Briefcase, Download } from "lucide-react"
 import Link from "next/link"
 import { useTheme } from "../../contexts/theme-context"
 import Navigation from "../../components/navigation"
@@ -18,13 +18,12 @@ export default function Experience() {
       location: "Bengaluru, India",
       duration: "Sep 2023 - Aug 2025",
       achievements: [
-        "Developed a RAG-based search system using a LangChain-driven LLM pipeline on HPE GreenLake, reducing manual research time for 200+ users by automating insight synthesis across unstructured financial repositories",
-        "Reduced model hallucinations by 38% through systematic prompt engineering and domain-specific fine-tuning of GPT-3.5 Turbo, leveraging hyperparameter optimization to increase output reliability for financial audits",
-        "Engineered a hybrid retrieval layer using FAISS and Pinecone architecture, increasing search accuracy by 35% across a 50K+ document corpus by optimizing vector embeddings",
-        "Streamlined financial audits by 60% via LangGraph multi-agent orchestration, utilizing query decomposition to automate iterative data retrieval and cross-referencing",
+        "Built an enterprise RAG system on HPE GreenLake infrastructure, utilizing GPT-4 and LangChain to enable semantic search and automated insight synthesis across unstructured financial repositories for 200+ users",
+        "Reduced model hallucinations by 38% through systematic prompt engineering and fine-tuning of GPT-3.5 Turbo on domain-specific datasets and hyperparameter optimization",
+        "Engineered a high-performance retrieval layer using a hybrid FAISS and Pinecone architecture, increasing search accuracy by 35% across a 50K+ document corpus",
+        "Streamlined financial audits by implementing multi-agent orchestration via LangGraph, utilizing query decomposition to reduce manual research time by 60%",
         "Integrated Power BI with Prometheus & Grafana using MS Fabric to visualize LLM usage and performance metrics for stakeholders",
-        "Collaborated with DevOps and Product teams to deploy MLOps pipelines, using model quantization to reduce inference latency and meet enterprise production requirements"
-      ],
+        "Collaborated with cross-functional teams to set evaluation benchmarks, using quantization and inference-parameter tuning to meet production accuracy and latency standards"],
     },
     {
       title: "Software Engineer Intern",
@@ -32,9 +31,9 @@ export default function Experience() {
       location: "Bengaluru, India",
       duration: "Mar 2023 - Aug 2023",
       achievements: [
-        "Integrated automated fraud-risk alerts into analyst workflows by developing a financial dashboard using React and FastAPI, visualizing transaction health via custom-built REST APIs",
-        "Automated log parsing and anomaly detection by constructing Python-based pipelines, reducing system downtime through containerization via Docker and Kubernetes on Azure AKS",
-        "Guided project roadmaps by maintaining technical documentation of experimental results and presenting data-driven findings to senior engineering leadership",
+        "Developed a financial dashboard using React and FastAPI to visualize transaction health, implementing REST APIs to integrate automated fraud-risk alerts directly into the analyst workflow",
+        "Constructed Python-based pipelines to automate log parsing and anomaly detection, containerizing services via Docker and Kubernetes to streamline deployments across Azure AKS",
+        "Maintained detailed technical documentation of experimental results, methodologies, and codebases, presenting findings to senior engineers to guide project roadmaps",
       ],
     },
     {

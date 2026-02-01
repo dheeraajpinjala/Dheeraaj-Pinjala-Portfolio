@@ -11,7 +11,7 @@ export default function Skills() {
 
   const technicalSkills = {
     "Programming Languages": ["Python", "JavaScript", "SQL", "TypeScript", "Java", "C", "C++"],
-    "AI/ML Expertise": ["Large Language Models (LLMs)", "Retrieval-Augmented Generation (RAG)", " Natural Language Processing (NLP)", "Prompt Engineering", "Fine-tuning", "Deep Learning", "Agentic AI", "Predictive Modeling", "Machine Learning (ML)", "Reinforcement Learning (RL)", "Statistical Inference"],
+    "AI/ML Expertise": ["Large Language Models (LLMs)", "Retrieval-Augmented Generation (RAG)", " Natural Language Processing (NLP)", "Prompt Engineering", "Fine-tuning", "Deep Learning", "Agentic Workflows"],
     "Frameworks & Libraries": ["TensorFlow", "PyTorch", "Scikit-Learn", "React", "FastAPI", "LangChain", "LangGraph", "Hugging Face Transformers", "Groq"],
     "Data Analysis & Visualization": ["Pandas", "Numpy", "Seaborn", "Big Data Engineering", "Data Analytics with Python", "DBMS", "Prometheus", "Grafana"],
     "Cloud Platforms": ["Microsoft Azure", "AKS", "DataBricks", "Azure ML", "MS Fabric"],
